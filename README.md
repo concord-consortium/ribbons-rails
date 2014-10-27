@@ -36,7 +36,7 @@ In your views:
         </div>
 
 or
-     <%= ribbon("congratulations","my_ribbon_css_class") %>
+        <%= ribbon("congratulations","my_ribbon_css_class") %>
 
 ## Contributing
 
