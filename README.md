@@ -20,17 +20,23 @@ Or install it yourself as:
 
 In your Stylesheets:
 
-     @import 'progress_bars';
+    @import 'ribbons-rails';
 
-     .meter { 
-      @include meter(10px, red, 10);
-      display: inline-block; 
-      clear: none;
+    .my-ribbon { 
+      @include ribbon(orange);
     }
+    
 
 In your views:
 
-    (not sure yet)
+        <div class="example-ribbon">
+          <div class="banner">
+            <div class="text">My Ribbon Text</div>
+          </div>
+        </div>
+
+or
+     <%= ribbon("congratulations","my_ribbon_css_class") %>
 
 ## Contributing
 
