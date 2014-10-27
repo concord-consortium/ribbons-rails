@@ -18,6 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
+In your Stylesheets:
+
+     @import 'progress_bars';
+
+     .meter { 
+      @include meter(10px, red, 10);
+      display: inline-block; 
+      clear: none;
+    }
+
 In your views:
 
     (not sure yet)
